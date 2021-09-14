@@ -1,0 +1,42 @@
+Defects in software may result in: - Failures
+Testing contributes to quality assurance by: -  i) and ii)
+An objective of testing is to: - Help reduce risk 
+If tests are used repeatedly: -  They may need to be revised
+Which of the following form part of the planning activities of the fundamental test process: - v)
+Independent testing: - Avoids author bias
+When testers identify failures: - i), ii), iii), iv) and vi)
+Test closure activities include: - Checking the closure of incident reports
+Defect clustering means: - A small number of components show the most operational failures
+Match these tasks with their corresponding test activities: - i) and ii) = 1, iii) = 4, iv) = 3
+Which of the following is NOT part of testing? - Defining software requirements
+The correct order for test activities is: - Planning, designing, preparing, executing and evaluating
+Development documentation most likely to be used as the test basis for system testing is: - i) and iii) 
+A new system developed by iterative-incremental development methods: - May be tested at each level 
+Component testing: - May use structural testing 
+Component testing: - Might be subject to acceptance testing 
+ Operational acceptance testing: - Is often concerned with backups 
+ Alpha and beta testing: - Are often used when there is no specific customer to accept the system 
+ Which of the following is a non-functional test: - Testing the speed of a function 
+ Maintenance testing: - May require extensive regression testing 
+ In deciding what to test, maintenance testing may consider: - i), ii), iv) and v) 
+ Which of the following statements regarding types of testing is true? - Structural and functional testing may be applied at any level of testing
+Static testing techniques: - Can find certain types of defect easier than in dynamic testing 
+Static testing and dynamic testing: - Reveal different types of defects
+A formal review has the following phases: - Planning, kick-off, individual preparation, review meeting, rework and follow-up 
+A walkthrough: -Is usually led by the author of the item under review 
+Inspections: - Should be run by a trained leader
+Establishing traceability between test cases and specifications is important because: - i) and iii) 
+When are test cases and test data developed, implemented and organised? - During test case specification 
+What is the purpose of a test design technique? - To identify test conditions and test cases 
+Which of the following is a white-box test design technique? - Decision testing 
+Which of the following is a black-box test design technique? - State transition testing 
+Exploratory testing is: - When test design takes place after the system has been delivered 
+Given the extract of code below, how many test cases are required to obtain 100% decision coverage? - 3 
+Which of the following tasks would be performed by a test leader: - Decide what should be automated 
+Match the following tasks to their corresponding test management activities: - i) and iv) Test planning, ii) Test progress monitoring, iii) Test control 
+Configuration management: - Is useful for traceability
+Which of the following is a project risk? -  Contractual issues 
+An objective of incident reporting is to: - Provide a means of assessing progress of testing 
+A consultative test approach: - Is driven primarily by technology or business domain experts
+A risk-based approach to testing:  -  i, ii and iv 
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-14T18:02:10 IST" name="Default suite" finished-at="2021-09-14T18:02:56 IST" duration-ms="45913">
+    <groups>
+    </groups>
+    <test started-at="2021-09-14T18:02:10 IST" name="Default test" finished-at="2021-09-14T18:02:56 IST" duration-ms="45913">
+      <class name="userTests.BadgeAndFeedbackTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:userTests.BadgeAndFeedbackTest@cd3fee8]" started-at="2021-09-14T18:02:10 IST" name="setup" finished-at="2021-09-14T18:02:13 IST" duration-ms="2131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="badgeAndFeedback()[pri:0, instance:userTests.BadgeAndFeedbackTest@cd3fee8]" started-at="2021-09-14T18:02:13 IST" name="badgeAndFeedback" finished-at="2021-09-14T18:02:56 IST" duration-ms="43676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- badgeAndFeedback -->
+      </class> <!-- userTests.BadgeAndFeedbackTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

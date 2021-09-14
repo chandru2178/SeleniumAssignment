@@ -1,0 +1,40 @@
+08:01:22.225 [main] INFO  adminTests.CreateCourseTest - Trying to initialize the webDriver
+08:01:23.579 [main] DEBUG adminTests.CreateCourseTest - Hey this might print in in the console
+08:01:23.580 [main] INFO  adminTests.CreateUserTest - Trying to initialize the webDriver
+08:01:25.529 [main] DEBUG adminTests.CreateUserTest - Hey this might print in in the console
+08:03:44.526 [main] INFO  adminTests.CreateUserTest - url is clicked for user chandru1
+08:06:26.868 [main] INFO  adminTests.CreateCourseTest - Trying to initialize the webDriver
+08:06:27.765 [main] DEBUG adminTests.CreateCourseTest - Hey this might print in in the console
+08:06:27.766 [main] INFO  adminTests.CreateUserTest - Trying to initialize the webDriver
+08:06:28.799 [main] DEBUG adminTests.CreateUserTest - Hey this might print in in the console
+08:07:41.835 [main] INFO  adminTests.CreateUserTest - url is clicked for user chandru1
+08:39:56.661 [TestNG-tests-3] INFO  adminTests.CreateUserTest - Trying to initialize the webDriver
+08:39:58.372 [TestNG-tests-3] DEBUG adminTests.CreateUserTest - Hey this might print in in the console
+08:40:19.934 [TestNG-tests-3] INFO  adminTests.CreateUserTest - url is clicked for user chandru1
+08:40:54.896 [TestNG-tests-1] INFO  adminTests.CreateCourseTest - Trying to initialize the webDriver
+08:40:56.902 [TestNG-tests-1] DEBUG adminTests.CreateCourseTest - Hey this might print in in the console
+08:59:27.356 [TestNG-tests-3] INFO  adminTests.CreateUserTest - Trying to initialize the webDriver
+08:59:29.485 [TestNG-tests-3] DEBUG adminTests.CreateUserTest - Hey this might print in in the console
+08:59:40.621 [TestNG-tests-3] INFO  adminTests.CreateUserTest - url is clicked for user chandru1
+09:00:12.166 [TestNG-tests-1] INFO  adminTests.CreateCourseTest - Trying to initialize the webDriver
+09:00:13.258 [TestNG-tests-1] DEBUG adminTests.CreateCourseTest - Hey this might print in in the console
+09:07:56.691 [TestNG-tests-3] INFO  adminTests.CreateUserTest - Trying to initialize the webDriver
+09:07:59.532 [TestNG-tests-3] DEBUG adminTests.CreateUserTest - Hey this might print in in the console
+09:08:22.146 [TestNG-tests-3] INFO  adminTests.CreateUserTest - url is clicked for user chandru1
+09:08:56.359 [TestNG-tests-3] INFO  adminTests.CreateCourseTest - Trying to initialize the webDriver
+09:08:57.558 [TestNG-tests-3] DEBUG adminTests.CreateCourseTest - Hey this might print in in the console
+09:15:23.399 [TestNG-tests-3] INFO  adminTests.CreateUserTest - Trying to initialize the webDriver
+09:15:25.413 [TestNG-tests-3] DEBUG adminTests.CreateUserTest - Hey this might print in in the console
+09:15:53.190 [TestNG-tests-3] INFO  adminTests.CreateUserTest - url is clicked for user chandru1
+09:16:17.967 [TestNG-tests-1] INFO  adminTests.CreateCourseTest - Trying to initialize the webDriver
+09:16:20.169 [TestNG-tests-1] DEBUG adminTests.CreateCourseTest - Hey this might print in in the console
+09:23:02.779 [TestNG-tests-3] INFO  adminTests.CreateUserTest - Trying to initialize the webDriver
+09:23:05.343 [TestNG-tests-3] DEBUG adminTests.CreateUserTest - Hey this might print in in the console
+09:23:15.572 [TestNG-tests-3] INFO  adminTests.CreateUserTest - url is clicked for user chandru1
+09:23:43.815 [TestNG-tests-1] INFO  adminTests.CreateCourseTest - Trying to initialize the webDriver
+09:23:45.086 [TestNG-tests-1] DEBUG adminTests.CreateCourseTest - Hey this might print in in the console
+18:15:04.802 [TestNG-tests-3] INFO  adminTests.CreateUserTest - Trying to initialize the webDriver
+18:15:07.895 [TestNG-tests-3] DEBUG adminTests.CreateUserTest - Hey this might print in in the console
+18:15:18.474 [TestNG-tests-3] INFO  adminTests.CreateUserTest - url is clicked for user chandru1
+18:15:48.568 [TestNG-tests-3] INFO  adminTests.CreateCourseTest - Trying to initialize the webDriver
+18:15:54.559 [TestNG-tests-3] DEBUG adminTests.CreateCourseTest - Hey this might print in in the console

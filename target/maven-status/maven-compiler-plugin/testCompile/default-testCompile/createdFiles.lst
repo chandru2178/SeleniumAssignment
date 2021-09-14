@@ -1,0 +1,8 @@
+userTests\UserLoginTest.class
+userTests\UserUpdateTest.class
+userTests\UserCourseEnrollTest.class
+listener\Listeners.class
+adminTests\DeleteUserTest.class
+adminTests\CreateUserTest.class
+userTests\AttemptQuizTest.class
+adminTests\CreateCourseTest.class

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listener.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="createUser(failed)" verbose="0">
+    <classes>
+      <class name="adminTests.CreateUserTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="createUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- adminTests.CreateUserTest -->
+    </classes>
+  </test> <!-- createUser(failed) -->
+  <test thread-count="5" parallel="tests" name="delete(failed)" verbose="0">
+    <classes>
+      <class name="adminTests.DeleteUserTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="deleteUser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- adminTests.DeleteUserTest -->
+    </classes>
+  </test> <!-- delete(failed) -->
+  <test thread-count="5" parallel="tests" name="attemptQuiz(failed)" verbose="0">
+    <classes>
+      <class name="userTests.AttemptQuizTest">
+        <methods>
+          <include name="attemptQuiz"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- userTests.AttemptQuizTest -->
+    </classes>
+  </test> <!-- attemptQuiz(failed) -->
+  <test thread-count="5" parallel="tests" name="enrollCourse(failed)" verbose="0">
+    <classes>
+      <class name="userTests.UserCourseEnrollTest">
+        <methods>
+          <include name="enrollToCourse"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- userTests.UserCourseEnrollTest -->
+    </classes>
+  </test> <!-- enrollCourse(failed) -->
+</suite> <!-- Failed suite [Suite] -->

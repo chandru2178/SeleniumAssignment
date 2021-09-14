@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 123.342 s <<< FAILURE! - in TestSuite
+adminTests.CreateUserTest.createUser[chandru1, Hari@123, Harish, M, hari@gmail.com](1)  Time elapsed: 33.4 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".errormessage"}
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-51JTP5G', ip: '192.168.43.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\CHANDRA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea8efb2f8e31976b708afad6df2914d2
+*** Element info: {Using=class name, value=errormessage}
+	at adminTests.CreateUserTest.createUser(CreateUserTest.java:63)
+
+adminTests.DeleteUserTest.deleteUser  Time elapsed: 36.531 s  <<< FAILURE!
+java.lang.AssertionError: expected [0] but found [1]
+	at adminTests.DeleteUserTest.deleteUser(DeleteUserTest.java:59)
+
+userTests.UserCourseEnrollTest.enrollToCourse  Time elapsed: 42.334 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at userTests.UserCourseEnrollTest.enrollToCourse(UserCourseEnrollTest.java:68)
+
+userTests.AttemptQuizTest.attemptQuiz  Time elapsed: 42.843 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Attempt quiz now']"}
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-51JTP5G', ip: '192.168.43.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\CHANDRA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d29cac50f05fb8446af2838a825e74c6
+*** Element info: {Using=xpath, value=//input[@value='Attempt quiz now']}
+	at userTests.AttemptQuizTest.attemptQuiz(AttemptQuizTest.java:83)
+

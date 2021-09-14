@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="listener.Listeners" />
+	</listeners>
+	<test name="delete">
+		<classes>
+			<class name="adminTests.DeleteUserTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="update">
+		<classes>
+			<class name="userTests.UserUpdateTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="createUser">
+		<classes>
+			<class name="adminTests.CreateUserTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="attemptQuiz">
+		<classes>
+			<class name="userTests.AttemptQuizTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="enrollCourse">
+		<classes>
+			<class name="userTests.UserCourseEnrollTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="createCourse">
+		<classes>
+			<class name="adminTests.CreateCourseTest" />
+		</classes>
+	</test> <!-- Test -->
+
+
+
+	<test name="login">
+		<classes>
+			<class name="userTests.UserLoginTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,13 @@
+pageObjects\CourseAndCatogoryManagement.class
+pageObjects\User_Details.class
+pageObjects\UserHome.class
+pageObjects\Site_Administration.class
+pageObjects\DashBoardPage.class
+pageObjects\Login.class
+pageObjects\BrowseListOfUsers.class
+pageObjects\CoursePage.class
+pageObjects\NewCourse.class
+pageObjects\UserProfile.class
+resources\Base.class
+pageObjects\EditProfile.class
+pageObjects\NewCategory.class
